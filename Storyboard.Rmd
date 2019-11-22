@@ -1,0 +1,33 @@
+---
+title: "Storyboard Commentary"
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(DT)
+source("Objects.R")
+```
+
+### Frame 1
+  
+```{r}
+ggplotly(timeseries_plot)
+```
+
+*** 
+  
+  Some commentary about Frame 1.
+
+### Frame 2 {data-commentary-width=400}
+
+```{r}
+compulsory_counts %>% 
+  DT::datatable(rownames = FALSE)
+```
+
+*** 
+  
+  Some commentary about Frame 2.

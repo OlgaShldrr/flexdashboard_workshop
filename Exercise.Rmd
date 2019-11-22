@@ -1,0 +1,64 @@
+---
+title: "Name of the dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(DT)
+source("Objects.R")
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Median government expenditure on education, total (% of GDP)
+
+```{r}
+valueBox(icon = "fa-money-bill-alt", value = paste0(median_expenditure, " %"), color = "green")
+```
+
+### Median literacy rate, adult female (% of females ages 15 and above)
+
+```{r}
+valueBox(icon = "...", value = ...)
+```
+
+### Median literacy rate, adult male (% of males ages 15 and above)
+
+```{r}
+valueBox(icon = "...", value = ...)
+```
+
+### Median Trained teachers in secondary education (% of total teachers)
+
+```{r}
+valueBox(icon = "...", value = ...)
+```
+
+### Median Pupil-teacher ratio, primary
+
+```{r}
+valueBox(icon = "...", value = ...)
+```
+
+Row
+-------------------------------------------------
+### Adjusted net enrollment rate, primary (% of primary school age children)	
+
+```{r}
+#Place here ggplotly object of the timeseries 
+
+```
+
+
+### Frequencies of compulsory education years in 2017 globally {data-width=200}
+
+```{r}
+#Place here compulsory_count object followed by the pipe and DT::datatable(rownames = FALSE) function
+
+```
+
