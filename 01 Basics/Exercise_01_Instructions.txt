@@ -1,0 +1,4 @@
+1. Open folder Layouts
+2. Select any layout file and open it
+3. Inside of the file, change a title in the document's header
+4. Hit "Knit" button or press Ctrl+Shift+K

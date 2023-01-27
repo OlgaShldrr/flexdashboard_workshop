@@ -1,0 +1,13 @@
+1. The folder "Data" contains all the necessary data files, and the file "Objects.R" contains all the necessary figures
+and tables for your dashboard
+2. Open "Exercise_02.Rmd" file
+3. Inside of the file, change a title in the document's header
+4. In all, but first code chunks, the code is missing. Fill out the code following the example and the instructions. 
+5. For value boxes, add a function with object name from comments, containing an icon of your preference (use 
+format: “fa-[name of the icon]” from www.fontawesome.com) and a color (e.g., http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
+6. For interactive graph, wrap your ggplot in a wrapper as follows: ggplotly(graph_name)
+7. For interactive table, follow the format: 
+table_name %>% 
+  DT::datatable()
+8. In case of doubts, consult "Exercise_02_solution.Rmd" file
+9. Hit "Knit" to see results

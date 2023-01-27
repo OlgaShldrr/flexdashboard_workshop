@@ -1,0 +1,8 @@
+1. The folder "Data" contains all the necessary data files, and the file "Objects.R" contains all the necessary figures
+and tables for your dashboard
+2. Open "Exercise_03.Rmd" file
+3. Inside the file, change a title in the document's header
+4. Inside the file, all code is already added but storyboard elements are missing.
+5. Change "Frame 1" and "Frame 2" to meaningful tab names.
+6. Change "Some commentary about Frame X." to meaningful commentary.
+7. Hit "Knit" to see results.
