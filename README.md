@@ -1,4 +1,4 @@
-# Workshop "Flexdashboard in R" on February 28, 2023
+# Workshop "Flexdashboard with R" on February 28, 2023
 
 Workshop materials 
 
